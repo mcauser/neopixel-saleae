@@ -1,2 +1,7 @@
-debug
-release
+# visual studio stuff
+Debug/
+Release/
+*.VC.db
+*.VC.opendb
+*.suo
+*.sln.ecd
