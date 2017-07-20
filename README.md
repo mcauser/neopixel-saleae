@@ -6,10 +6,10 @@ Provides bytes above the bit data stream.
 
 ## Installation
 
-1. Install the [Saleae Protocol Analyzer SDK](http://support.saleae.com/hc/en-us/articles/208667926-Protocol-Analyzer-SDK)
-2. In the SDK folder, git clone this repo
-3. Follow the instructions in the SDK documentation folder to build and
-   use the protocol analyzer
+1. Clone this repo `git clone git@github.com:mcauser/neopixel-saleae.git`
+2. Install [Saleae Protocol Analyzer SDK](https://github.com/saleae/AnalyzerSDK) as a submodule `git submodule update --init`
+3. Run `python build_analyzer.py`
+4. The compiled libraries can be found in the newly created debug and release folders.
 
 ## Next steps
 
